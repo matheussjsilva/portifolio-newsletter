@@ -56,6 +56,10 @@ header .container img {
     height: 30px;
 }
 
+#checkbox-menu {
+    display: none
+}
+
 main {
     margin-bottom: 100px;
 
@@ -103,11 +107,18 @@ form input {
 form [type="submit"] {
     background-color: #0080ed;
     color: white;
+    width: 150px;
+    padding-left: 0px;
+    font-size: 16px;
+    height: 40px;
 }
 
 form [type="submit"]:hover {
     cursor: pointer;
+    background-color: rgba(0, 128, 237, 0.75);
+    transform: translateY(-2px);
 }
+
 
 main .container-main img {
     width: 600px;
@@ -115,6 +126,10 @@ main .container-main img {
 }
 
 /* CARDS */
+
+a {
+    text-decoration: none;
+}
 
 .cards {
     width: 90%;
@@ -150,6 +165,8 @@ main .container-main img {
     padding-top: 56.25%;
     overflow: hidden;
     position: relative;
+    border-radius: 10px 10px 0 0;
+    height: 225px;
 }
 
 .image img {
